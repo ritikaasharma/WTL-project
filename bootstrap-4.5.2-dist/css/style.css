@@ -2,18 +2,83 @@
 	box-sizing: border-box;
 }
 
+.nav-link{
+	text-align: center;
+}
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+}
 .home-image{
-	background-image: url("E:/Projects/WTL-Project/images/hampi-chariot-1.jpg");
+	/*background-image: url();*/
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-	background-color: rgb(139,0,139, 0.4);
-	width: 100%;
-	height: 100%;
+	background-color: white;
 	text-align: center;
+	display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 40%;
+}
+
+.avatar{
+	width:25px;
+	height:25px;
+	display: block;
+	margin-top: 8px;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.about-us{
+	background-color: rgb(84,148,172);
+	/*background-image: url("E:/Projects/WTL-Project/images/logo_200x200 (2).png");
+	background-repeat: repeat-y;*/
+	width: 100%;
+	height: 50%;
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+}
+
+.content{
+	background-color: white;
+	width: 40%;
+	height: 50%;
+    margin: auto;
+    padding: auto;
+    margin-left: 0.5*(width);
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow:  5px 5px 5px #222;
+}
+.content>h2{
+	text-align: center;
+	color: #514371;
+}
+hr{
+	width: 10%;
+	border-top: 3px solid #514371;
 }
 
 .page-footer{
 	background-color: #343a40;
 	color: white;
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.content{
+		width: 70%;
+	}
+}
+
+@media (max-width: 767px) {
+	.content{
+		width: 85%;
+	}
+
 }
