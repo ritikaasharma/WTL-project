@@ -10,16 +10,11 @@
   padding-right:15px;
 }
 .home-image{
-	/*background-image: url();*/
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 	background-color: white;
-	text-align: center;
 	display: block;
-	  margin-left: auto;
-	  margin-right: auto;
-	  width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 .avatar{
@@ -34,11 +29,8 @@
 
 .about-us{
 	background-color: rgb(84,148,172);
-	/*background-image: url("E:/Projects/WTL-Project/images/logo_200x200 (2).png");
-	background-repeat: repeat-y;*/
 	width: 100%;
-	height: 50%;
-	margin: 0px 0px 10px 0px;
+	height: 50%;	
 	padding: 10px;
 }
 
@@ -59,9 +51,18 @@
 	text-align: center;
 	color: #514371;
 }
-hr{
+
+.underline{
 	width: 10%;
 	border-top: 3px solid #514371;
+}
+
+.form {
+	background-color: rgb(84,148,172);
+}
+
+.submit > a {
+	padding: 5px;
 }
 
 .page-footer{
@@ -74,11 +75,23 @@ hr{
 	.content{
 		width: 70%;
 	}
+	.home-image{
+		width: 70%;
+	}
+	.avatar{
+		display: none;
+	}
 }
 
 @media (max-width: 767px) {
 	.content{
 		width: 85%;
+	}
+	.home-image{
+		width: 100%;
+	}
+	.avatar{
+		display: none;
 	}
 
 }
