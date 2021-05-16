@@ -1,9 +1,9 @@
 *{
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .nav-link{
-	text-align: center;
+  text-align: center;
 }
 .navbar-nav > li{
   padding-left:15px;
@@ -11,25 +11,36 @@
 }
 
 body{
-    background-color: rgb(84,148,172);
+    background-color: rgb(149,194,206);
 }
 .content{
-	background-color: white;
+  background-color: white;
   border-radius: 15px;
   box-shadow:  5px 5px 5px #222;
-  margin: 50px;
+  margin: 20px;
   padding: 30px;
 }
 
 h1{
-	text-align: center;
-	color: #ffffff;
+  text-align: center;
+  color: #ffffff;
   font-weight: bold;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px black;
   margin-top: 15px;
 }
-
+h2 {
+  color: #514371;
+}
 hr{
   width: 40%;
   border-top: 2px solid #fafafa;
 }
+.content > hr{
+  width: 100%;
+  border-top: 1px solid #514371;
+}
+.content > p{
+  color: #514371;
+}
+
+
