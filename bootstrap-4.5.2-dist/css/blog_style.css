@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+
+.nav-link{
+	text-align: center;
+}
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+}
+
+body{
+    background-color: rgb(84,148,172);
+}
+.content{
+	background-color: white;
+  border-radius: 15px;
+  box-shadow:  5px 5px 5px #222;
+  margin: 50px;
+  padding: 30px;
+}
+
+h1{
+	text-align: center;
+	color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 15px;
+}
+
+hr{
+  width: 40%;
+  border-top: 2px solid #fafafa;
+}
