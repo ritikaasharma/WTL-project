@@ -9,7 +9,6 @@
   padding-left:15px;
   padding-right:15px;
 }
-
 .home-image{ /*change*/
 	background-color: white;
 	display: block;
@@ -22,7 +21,6 @@
 	margin-left: auto;
 	margin-right: auto; 
 }
-
 
 .avatar{
 	width:25px;
@@ -50,6 +48,7 @@
 	background-attachment: fixed;
 	background-position: center center;
 }
+
 .contact-us{ /*change*/
 	background-color: rgb(84,148,172);
 	width: 100%;
@@ -94,6 +93,70 @@
 
 }
 
+/*Tanmay's edit*/
+
+.form .btn-btn-primary{
+	margin-top: 25px;
+	color: white;
+	background:#1161ee;
+	border-top: 1px solid #514371;
+	padding:15px 20px;
+	border-radius:10px;
+	width: 35%;
+}
+
+.form .form-group .input{
+	border-top: 1px solid #514371;
+	color:#000;
+	padding:15px 20px;
+	border-radius:10px;
+	background:rgba(255,255,255,.1);
+	width:100%;
+	border-left: 2px solid #514371;
+	border-bottom: 2px solid #514371;
+}
+
+.form .form-group .input2{
+	border-top: 1px solid #514371;
+	color:#000;
+	padding:15px 20px;
+	border-radius:10px;
+	background: rgb(235, 231, 231);
+	width:100%;
+	border-left: 2px solid #514371;
+	border-bottom: 2px solid #514371;
+	border-right: 1px solid #514371;
+}
+
+.form .custom-file .custom-file-label{
+	border-top: 1px solid #514371;
+	color:#514371;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	border-radius:10px;
+	background:rgba(255,255,255,.1);
+	width:100%;
+	position: absolute;
+	border-left: 2px solid #514371;
+	border-bottom: 2px solid #514371;
+	border-right: 2px solid #514371;
+}
+
+.form .form-group .custom-select1{
+	border-top: 1px solid #514371;
+	color:#514371;
+	padding-top: 12px;
+	padding-left: 15px;
+	padding-bottom: 12px;
+	border-radius:10px;
+	width: 100%;
+	background:rgba(255,255,255,.1);
+	border-left: 2px solid #514371;
+	border-bottom: 2px solid #514371;
+}
+
+/*Tanmay's edit*/
+
 @media (min-width: 768px) and (max-width: 991px){
 	.content{
 		width: 70%;
@@ -120,5 +183,4 @@
 	.profile-avatar{
 		width: 60%;
 	}	
-
 }
