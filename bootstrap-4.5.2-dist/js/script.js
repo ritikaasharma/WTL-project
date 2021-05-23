@@ -1,53 +1,40 @@
-// $("#write").hide()
-// $("#upload").hide()
-var addblog = document.getElementById("addblog")
-var write = document.getElementById("write")
-var upload = document.getElementById("upload")
-if(addblog){
-  addblog.addEventListener('click', swapper, false);
-}
-addblog.addEventListener('change',function(){
-     if (addblog.value === "Write here"){
-     	write.disabled = true;
-     	upload.disabled = false;
-     }
-     else{
-     	write.disabled = false;
-     	upload.disabled = true;
-     }
-});
 
+// to reset password
+ function checkForm() {
+    var oldP=document.getElementById("oldpassword").value;
+    var newP=document.getElementById("newpassword").value;
+    var confirmP =document.getElementById("newconfirmpassword").value;
 
-// file validation for image
-function fileValidation() {
-            var fileInput = 
-                document.getElementById('file');
-              
-            var filePath = fileInput.value;
-          
-            // Allowing file type
-            var allowedExtensions = 
-                    /(\.jpg|\.jpeg|\.png|\.gif)$/i;
-              
-            if (!allowedExtensions.exec(filePath)) {
-                alert('Invalid file type');
-                fileInput.value = '';
-                return false;
-            } 
-            else 
-            {
-              
-                // Image preview
-                if (fileInput.files && fileInput.files[0]) {
-                    var reader = new FileReader();
-                    reader.onload = function(e) {
-                        document.getElementById(
-                            'imagePreview').innerHTML = 
-                            '<img src="' + e.target.result
-                            + '"/>';
-                    };
-                      
-                    reader.readAsDataURL(fileInput.files[0]);
-                }
-            }
+    if(oldP!=""&&newP!=""&&confirmP!="")
+    {
+	    if(oldP!=newP)
+	      {
+	        if(newP==confirmP)
+	         { 
+	            if(newP.length >= 6){
+	            	alert("Password changed succesfully");
+	                return true;
+	            }
+	            else{
+	                alert("Length of password should be greater than 5");
+	                return false;
+	            }
+	         }
+	         else
+	         {
+	           alert("Confirm password is not same as you new password.");
+	           return false;
+	         }
+	     }
+	    else
+	    {
+	     alert(" This Is Your Old Password,Please Provide A New Password");
+	     return false;
+	    }
+	}
+    else
+    {
+        alert("All Fields Are Required");
+        return false;
         }
+   }
