@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.2-dist/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
         <a class="navbar-brand" href="#"><img src="E:\Projects\WTL-Project\images\logo_200x200 (2).png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -57,14 +57,24 @@
         </div>
         
     </div>
-    <div class="contact-us">
-        <div class="content">
+    <div class="contact-us form">
+        <form class="content" action="mailto:ritikashrimali4@gmail.com?subject=Email Subject&body=Contents of email" method="post" enctype="text/plain">
             <h2>Contact Us</h2>
             <hr class="underline">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-            survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.
-        </div>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="input" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="mail">Email Id</label>
+                <input type="email" class="input" id="mail" placeholder="Enter your email id">
+            </div>
+            <div class="form-group">
+              <label for="query">Your query</label> 
+              <textarea type="text" class="input" id="query" rows="3" ></textarea>
+            </div>
+            <button class="btn-btn-primary" type="submit">Submit</button>
+        </form>
     </div>
     <footer class="page-footer">
 
