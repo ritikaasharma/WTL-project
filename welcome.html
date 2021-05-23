@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.2-dist/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
         <a class="navbar-brand" href="#"><img src="E:\Projects\WTL-Project\images\logo_200x200 (2).png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,28 +36,48 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
                           <a class="dropdown-item" href="profile.html">View profile</a>
-                            <a class="dropdown-item" href="resetpwd.html">Reset password</a>
+                            <a class="dropdown-item" href="resetpassword.html">Reset password</a>
                           <a class="dropdown-item btn btn-danger" href="logout.html">Log out</a>
                     </div>
             </div>
     </nav>
-    <div >
+    <div class="home-image">
        <!--  <video width="800" height="500" autoplay>
             <source src="E:\Projects\WTL-Project\images\hawa-mahal-vid.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video> -->
-        <img class="home-image" src="images\full_logo_1.png">
+        <img id="thelogo" src="images\full_logo_1.png">
         
     </div>
 
-    <div class="about-us">
+   <div class="about-us">
         <div class="content">
-        <h2>About Us</h2>
-        <hr class="underline">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-        software like Aldus PageMaker including versions of Lorem Ipsum.
+            <h2>About Us</h2>
+            <hr class="underline">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
         </div>
+        
+    </div>
+    <div class="contact-us form">
+        <form class="content" action="mailto:ritikashrimali4@gmail.com?subject=Email Subject&body=Contents of email" method="post" enctype="text/plain">
+            <h2>Contact Us</h2>
+            <hr class="underline">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="input" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="mail">Email Id</label>
+                <input type="email" class="input" id="mail" placeholder="Enter your email id">
+            </div>
+            <div class="form-group">
+              <label for="query">Your query</label> 
+              <textarea type="text" class="input" id="query" rows="3" ></textarea>
+            </div>
+            <button class="btn-btn-primary" type="submit">Submit</button>
+        </form>
     </div>
     <footer class="page-footer">
 
