@@ -9,13 +9,20 @@
   padding-left:15px;
   padding-right:15px;
 }
-.home-image{
+
+.home-image{ /*change*/
 	background-color: white;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 100%;
 }
+#thelogo { /*change*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
 
 .avatar{
 	width:25px;
@@ -32,7 +39,18 @@
 	margin-right: auto;
 	width: 50%;
 }
-.about-us{
+.about-us{/*change*/
+	/*background-color: rgb(84,148,172, 0.5);*/
+	width: 100%;
+	height: 50%;	
+	padding: 10px;
+	background-image: url("E:/Projects/WTL-Project/images/hawa_mahal.jpg");
+	background-size: cover;		
+	background-color: #cccccc; 
+	background-attachment: fixed;
+	background-position: center center;
+}
+.contact-us{ /*change*/
 	background-color: rgb(84,148,172);
 	width: 100%;
 	height: 50%;	
@@ -80,7 +98,7 @@
 	.content{
 		width: 70%;
 	}
-	.home-image{
+	#thelogo{ /*change*/
 		width: 70%;
 	}
 	.avatar{
@@ -93,7 +111,7 @@
 	.content{
 		width: 85%;
 	}
-	.home-image{
+	#thelogo{ /*change*/
 		width: 100%;
 	}
 	.avatar{
