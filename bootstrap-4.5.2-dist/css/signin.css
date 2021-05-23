@@ -44,7 +44,7 @@ body {
 	width:100%;
 	margin:auto;
 	max-width:525px;
-	min-height:750px;
+	min-height:790px;
 	position:relative;
 	box-shadow:  5px 5px 5px #222;
 	border-radius: 15px;
@@ -89,7 +89,6 @@ body {
 }
 .login-html .sign-in:checked + .tab,
 .login-html .sign-up:checked + .tab{
-	color:purple;
 	border-color:#1161ee;
 }
 .login-form{
@@ -183,6 +182,41 @@ body {
 	transform:rotate(0);
 }
 
+.sign-in-htm .group .label,
+.sign-up-htm .group .label{
+	font-size: 14px;
+	color:#000;
+}
+
 .foot-lnk{
 	text-align:center;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.content{
+		width: 70%;
+	}
+	.home-image{
+		width: 70%;
+	}
+	.avatar{
+		display: none;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.content{
+		width: 85%;
+	}
+	.home-image{
+		width: 100%;
+	}
+	.avatar{
+		display: none;
+	}
+	.profile-avatar{
+		width: 60%;
+	}	
+
 }
