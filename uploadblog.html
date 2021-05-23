@@ -19,38 +19,40 @@
     <hr class="underline">
     <br>
     <div class="form-group">
-      <label for="exampleFormControlInput1">Name</label> <!--name will be retrieved from db-->
-      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name" disabled="">
+      <label for="name">Name</label> <!--name will be retrieved from db-->
+      <input type="text" class="input2" id="name" placeholder="Enter your name" disabled="">
     </div>
     <div class="form-group">
-      <label for="exampleFormControlTextarea1">Introduction</label> <!--Introduction will be retrieved from db-->
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" disabled=""></textarea>
+      <label for="intro">Introduction</label> <!--Introduction will be retrieved from db-->
+      <textarea type="text" class="input" id="intro" rows="3"></textarea>
       <div class="invalid-feedback">
       Please enter a message in the textarea.
       </div>
     </div>
     <div class="form-group">
-      <label for="exampleFormControlInput1">Title</label> 
-      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your blog's title">
+      <label for="title">Title</label>
+      <input type="text" class="input" id="title" placeholder="Enter your blog's title">
     </div>
     <br>
     <div class="custom-file">
-      <input type="file" class="custom-file-input" id="customFile">
+      <input type="file" class="custom-file-input" id="customFile" >
       <label class="custom-file-label" for="customFile">Choose an image for your blog</label>
       <div class="invalid-feedback">
           Please choose a file.
       </div>
     </div><br><hr width="0px">  
     <div class="form-group">
-      <label for="exampleFormControlTextarea1">Your blog</label> 
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+      <label for="yourblog">Your blog</label> 
+      <textarea type="text" class="input" id="yourblog" rows="3" ></textarea>
     </div>
+    <p align="center">OR</p>
     <div class="custom-file">
-      <input type="file" class="custom-file-input" id="customFile">
-      <label class="custom-file-label" for="customFile">Upload your blog</label>
+      <input type="file" class="custom-file-input1" id="customFilenew" hidden/>
+      <label class="custom-file-label" for="customFilenew">Upload your blog</label>
+      
     </div><hr width="0px">  
     <div class="form-group">
-      <select class="custom-select" aria-describedby="RangeHelpBlock">
+      <select class="custom-select1" aria-describedby="RangeHelpBlock">
         <option selected disabled="">How long does your blog takes to read ?</option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -64,14 +66,14 @@
         <option value="10">10</option>
       </select>
     </div>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Your sources</label> 
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter sources/websites/books"></textarea>
-    </div>
     <br>
-    <button class="btn btn-primary" type="submit">Submit</button>
+    <div class="form-group">
+      <label for="yoursources">Your sources</label> 
+      <textarea type="text" class="input" id="yoursources" rows="3" placeholder="Enter sources/websites/books"></textarea>
+    </div>
+    <button class="btn-btn-primary" type="submit">Submit</button>
   </form>
-    <script type="text/javascript" src="bootstrap-4.5.2-dist/js/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="bootstrap-4.5.2-dist/js/script.js"></script>
+    <script type="text/javascript" src="C:\Users\ghare\Desktop\WTL-project-main\bootstrap-4.5.2-dist\js\jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="C:\Users\ghare\Desktop\WTL-project-main\bootstrap-4.5.2-dist\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="C:\Users\ghare\Desktop\WTL-project-main\bootstrap-4.5.2-dist\js\script.js"></script>
 </body>
