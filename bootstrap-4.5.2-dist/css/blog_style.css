@@ -42,5 +42,17 @@ hr{
 .content > p{
   color: #514371;
 }
+/*blogs.html*/
+#uploadbtn{
+  background-color: #514371;
+  color: white;
+  border-top: 1px solid #514371;
+  padding:15px 20px;
+  border-radius: 80%;
+  width: 5%;
+  position: fixed;
+  right: 10px;
+  bottom: 15px;
+}
 
 
